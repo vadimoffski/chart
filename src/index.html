@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="chart" id="chart">
+          <div data-el="tooltip" class="chart-tooltip"></div>
+          <canvas></canvas>
+        </div>
+      </div>
+      <form class="form">
+        <label class="label">
+          Enter the Y coord:
+          <input type="text" name="coordY" placeholder="0" />
+        </label>
+        <div class="buttons">
+          <button type="button" class="deleteBtn">Delete</button>
+          <button type="submit" class="submit">Add coord</button>
+          <button type="button" class="resetBtn">Reset</button>
+        </div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
